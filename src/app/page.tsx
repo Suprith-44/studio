@@ -1,3 +1,9 @@
+import { PdfQnaClient } from '@/components/pdf-qna-client';
+
 export default function Home() {
-  return <></>;
+  return (
+    <main>
+      <PdfQnaClient />
+    </main>
+  );
 }
